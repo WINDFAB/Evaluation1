@@ -1,7 +1,11 @@
+header {
+    background-color: rgb(198,96,238);
+}
+
 h1 {
     text-align: center;
     color: blue;
-    background: rgb(198,96,238);
+    
 }
 .nav-link {
     color:blue;
