@@ -1,8 +1,24 @@
+header {
+    background-color: rgb(198,96,238);
+}
+
+
 h1 {
     text-align: center;
-    color: blue;
-    background: rgb(198,96,238);
+    color: white;
+    border: white;
+    border-width: 10px;
+    border-style:solid;
 }
-.nav-link {
-    color:blue;
+
+h2 {
+    text-align: center;
+    color: rgb(198,96,238);
+    border: rgb(198,96,238);
+    border-width: 10px;
+    border-style: solid;
+}
+
+.accordion-button, .accordion-body {
+    color: rgb(198,96,238);  
 }
