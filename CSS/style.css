@@ -1,3 +1,25 @@
+@media (max-width: 700px){
+    .table thead {
+    display: none;
+    }
+    .table tr{
+    display: block;
+    margin-bottom: 40px;
+    }
+    .table td {
+    display: block;
+    text-align: right;
+    }
+    .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    }
+    }
+
+
+
+
 body {
     width: 100%;
 }
@@ -23,12 +45,9 @@ h2 {
     border-style: solid;
 }
 
+
+
 .accordion-button, .accordion-body {
     color: rgb(198,96,238);  
 }
 
-.formulaire {
-    border: rgb(198,96,238);
-    border-width: 10px;
-    border-style: solid;
-}
