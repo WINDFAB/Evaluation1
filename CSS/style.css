@@ -8,7 +8,7 @@
     }
     .table td {
     display: block;
-    text-align: right;
+    text-align: left;
     }
     .table td:before {
     content: attr(data-label);
@@ -22,6 +22,7 @@
 
 body {
     width: 100%;
+    margin: 0;
 }
 
 header {
@@ -45,9 +46,28 @@ h2 {
     border-style: solid;
 }
 
+h3 {
+    text-align: center;
+    color: rgb(198,96,238);
+    }
 
+ 
 
 .accordion-button, .accordion-body {
     color: rgb(198,96,238);  
 }
 
+
+.eventail {
+    color: rgb(198,96,238);  
+}
+
+
+.lead {
+    color: rgb(198,96,238); 
+}
+.contact, .event, .bloc1 {
+    border: rgb(198,96,238);
+    border-width: 10px;
+    border-style: solid;
+}
