@@ -1,3 +1,4 @@
+/* petits écrans*/
 @media (max-width: 700px){
     .table thead {
     display: none;
@@ -15,10 +16,33 @@
     float: left;
     font-weight: bold;
     }
+    .bloc1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .chakra {
+        max-height: fit-content;
     }
 
+}
 
 
+    
+/* autres écrans*/        
+    
+.accordion-button, .accordion-body {
+        color: rgb(198,96,238);  
+    }
+    
+
+.eventail {
+        color: rgb(198,96,238);  
+    }
+    
+    
+.lead {
+        color: rgb(198,96,238); 
+    }
 
 body {
     width: 100%;
@@ -49,25 +73,12 @@ h2 {
 h3 {
     text-align: center;
     color: rgb(198,96,238);
-    }
-
- 
-
-.accordion-button, .accordion-body {
-    color: rgb(198,96,238);  
 }
 
-
-.eventail {
-    color: rgb(198,96,238);  
-}
-
-
-.lead {
-    color: rgb(198,96,238); 
-}
-.contact, .event, .bloc1 {
+.contact, .event, .bloc1, .bloc2 {
     border: rgb(198,96,238);
     border-width: 10px;
     border-style: solid;
+    margin-bottom: 5px;
 }
+

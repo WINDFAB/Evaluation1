@@ -12,7 +12,7 @@
 <body>
 <!--commentaire-->
 <header class="row">
-  <h1>Harmonie du vivant</h1>
+  <h1 id="retour-en-haut">Harmonie du vivant</h1>
   
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
     <a class="navbar-brand" href="#">
@@ -173,13 +173,17 @@
 
        
         <footer class="row">
-           
+           <p> Vous pouvez nous joindre au :    </p>
+           <a href="tel: +600000000">06 11 12 13 14</a>
+           <a href="mailto:nouscontacter@example.fr">Nous joindre par email</a>*
+           <a href="#retour-en-haut">Vers le haut de la page</a>
         </footer>
     
 
-            
+         <!--A SUPPRIMER-->   
      
-
+        <div style="background:pink;color:#333;position:fixed;right:0;bottom:0;z-index:99999999;font:1em arial;opacity:.9" id="ld"></div><script>setInterval(function(){if($(window).height()>=$(document).height()){$('#ld').text($(document).width()+' px');}else{$('#ld').text($(document).width()+17+' px');}},150);
+        </script>
  
 
 
