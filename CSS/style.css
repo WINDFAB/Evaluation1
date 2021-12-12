@@ -2,6 +2,7 @@
 @media (max-width: 420px){
     .table thead {
     display: none;
+    
     }
     .table tr{
     display: block;
@@ -44,7 +45,7 @@
         color: #8064A2; 
     }
 
-body {
+body, footer {
     
     margin: 0;
 }
@@ -52,7 +53,6 @@ body {
 header {
     background-color: #8064A2;
 }
-
 
 h1 {
     text-align: center;
@@ -89,3 +89,4 @@ h3, h4, .card-body {
     background-color: #8064A2;
     border-color: #8064A2;
 }
+
