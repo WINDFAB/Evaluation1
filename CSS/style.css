@@ -1,5 +1,5 @@
 /* petits écrans*/
-@media (max-width: 700px){
+@media (max-width: 420px){
     .table thead {
     display: none;
     }
@@ -24,25 +24,24 @@
     .chakra {
         max-height: fit-content;
     }
-
+    
 }
 
 
-    
 /* autres écrans*/        
     
 .accordion-button, .accordion-body {
-        color: rgb(198,96,238);  
+        color: #8064A2;  
     }
     
 
 .eventail {
-        color: rgb(198,96,238);  
+        color: #8064A2;  
     }
     
     
 .lead {
-        color: rgb(198,96,238); 
+        color: #8064A2; 
     }
 
 body {
@@ -51,7 +50,7 @@ body {
 }
 
 header {
-    background-color: rgb(198,96,238);
+    background-color: #8064A2;
 }
 
 
@@ -65,21 +64,28 @@ h1 {
 
 h2 {
     text-align: center;
-    color: rgb(198,96,238);
-    border: rgb(198,96,238);
+    color: #8064A2;
+    border: #8064A2;
     border-width: 10px;
     border-style: solid;
 }
 
-h3, h4 {
-    text-align: center;
-    color: rgb(198,96,238);
-}
 
+h3, h4, .card-body {
+    text-align: center;
+    color: #8064A2;
+}
+@media (max-width: 420px){
+    h3, h4 { font-size: 5px;}
+}
 .contact, .event, .bloc1, .bloc2, footer {
-    border: rgb(198,96,238);
+    border: #8064A2;
     border-width: 10px;
     border-style: solid;
     margin-bottom: 5px;
 }
 
+.btn-primary {
+    background-color: #8064A2;
+    border-color: #8064A2;
+}
