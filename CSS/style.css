@@ -75,9 +75,7 @@ h3, h4, .card-body {
     text-align: center;
     color: #8064A2;
 }
-@media (max-width: 420px){
-    h3, h4 { font-size: 5px;}
-}
+
 .contact, .event, .bloc1, .bloc2, footer {
     border: #8064A2;
     border-width: 10px;
