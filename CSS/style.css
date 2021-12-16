@@ -25,11 +25,11 @@
     .chakra {
         max-height: fit-content;
     }
-    
+      
 }
 
 
-/* autres écrans*/        
+        
     
 .accordion-button, .accordion-body {
         color: #8064A2;  
@@ -85,6 +85,9 @@ h3, h4, .card-body {
 
 .btn-primary {
     background-color: #8064A2;
-    border-color: #8064A2;
+    border-color: #c5a9e7;
 }
 
+footer {
+    background-color:  #d7cbe7;
+}
